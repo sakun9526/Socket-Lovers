@@ -47,6 +47,7 @@ public class DemoClient {
 			catch(IOException e){System.exit(0);}
 		}
 	}
+	// Throw exeption //
 	public static void main(String[] args) throws IOException{
 		clientSocket=new Socket(InetAddress.getLocalHost(),99);
 		obj=new DemoClient();
